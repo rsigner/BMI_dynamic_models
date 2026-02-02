@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+env/
+venv/
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Model files
+# KEEP: models/tissues/*_models.txt.gz
+# KEEP: models/tissues/*_betas.txt.gz
+# KEEP: models/feature_data/*.txt.gz
+# KEEP: models/mapping/*.txt.gz
+# EXCLUDE:
+*.rds
+*.RData
+
+# Output/Results
+results/
+output/
+*.log
+
+# Large data files
+*.raw
+*.raw.gz
+data/genotypes/
+data/expression/
+
+# Plots
+*.pdf
+*.png
+*.jpg
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Cluster jobs
+*.sh.e*
+*.sh.o*
+slurm-*.out
+
